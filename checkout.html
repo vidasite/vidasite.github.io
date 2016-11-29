@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<hmtl>
+
+<head>
+
+  <title>Vida x Checkout</title>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <script src="./dependencies/jquery-3.1.1.min.js"></script>
+
+  <meta charset="utf-8"/>
+
+  <script>
+
+    $(document).ready(function() {
+
+      var banner_header = $('#banner');
+
+      banner_header.animate({
+
+        fontSize: '30px'
+
+      }, "slow");
+
+
+
+      var nav_links = $('#left-nav h1');
+
+
+      nav_links.delay(1000).animate({
+
+        paddingLeft: '40px'
+      }, "slow");
+
+
+
+
+    });
+
+  </script>
+
+<style>
+#bannerh {text-align:center;}
+#bannerh { color: white;}
+#banner {background-image: url("rose-banner.jpg");
+         background-size: 1400px 300px;
+
+
+</style>
+
+</head>
+
+<body> <!-- Each ID name describe the purpose of the element  -->
+
+
+
+  <div id="banner">
+
+
+    <a href="index.html">
+      <h1 id="bannerh">&#9825; &#9829; <u>Vida's Sweetshop</u> &#9829; &#9825;      </h1>
+    </a>
+
+
+  </div>
+
+
+
+  <div id="left-nav">
+
+    <a href="index.html">
+      <h1>Home</h1>
+    </a>
+
+    <a href="shop.html">
+      <h1>Shop</h1>
+    </a>
+
+    <a href="about.html">
+      <h1>About</h1>
+    </a>
+
+    <a href="contact.html">
+      <h1>Contact</h1>
+    </a>
+
+    <a href="checkout.html">
+      <h1>Checkout</h1>
+    </a>
+
+
+</div>
+
+
+
+  <div id="main-container" style="margin-top: -500px; height: 1500px;">
+    
+    <!--    This is the main body of your web page     -->
+
+
+    <h2>Checkout</h2>
+
+    <p>Here you can checkout the items you've selected</p>
+
+
+<div id="table">
+<table border="10px" style="border-radius: 10px; margin-left: 120px; margin-top: 80px;">
+  <tr>
+    <th><h1><font color="darkred">Item</font></h1></th>
+    <th><h1>-----Quantity-----</h1></th>
+    <th><h1>-----Price-----</h1></th>
+    <th><h1>Checkout</h1></th>
+  </tr>
+ <tr>
+    <td><p><font color="darkred">Chocolates</font><p></td>
+    <td><p><label for="quantity">Qty: </label>
+<input min="1" type="number" id="quantity" name="quantity" value="1" />
+<style>#quantity { padding:5px; width:35px; border: 1px solid #555; }</style></p></td>
+    <td><p>$3.50</p></td>
+    <td><a href="checkout.html"><img src="buy.png" title="Checkout" width="180" height="70" /></a></td>
+  </tr>
+
+ <tr>
+    <td><p><font color="darkred">Jellies</font></p></td>
+    <td><p><label for="quantity">Qty: </label>
+<input min="1" type="number" id="quantity" name="quantity" value="1" />
+<style>#quantity { padding:5px; width:35px; border: 1px solid #555; }</style></p></td>
+    <td><p>$2.50</p></td>
+    <td><a href="checkout.html"><img src="buy.png" title="Checkout" width="180" height="70" /></a> </td>
+  </tr>
+
+<tr>
+    <td><p><font color="darkred">Cookies</font></p></td>
+    <td><p><label for="quantity">Qty: </label>
+<input min="1" type="number" id="quantity" name="quantity" value="1" />
+<style>#quantity { padding:5px; width:35px; border: 1px solid #555; }</style></p></td>
+    <td><p>$4.50</p></td>
+    <td><a href="checkout.html"><img src="buy.png" title="Checkout" width="180" height="70" /></a></td>
+  </tr>
+
+<tr>
+    <td><p><font color="darkred">Cakes</font></p></td>
+    <td><p><label for="quantity">Qty: </label>
+<input min="1" type="number" id="quantity" name="quantity" value="1" />
+<style>#quantity { padding:5px; width:35px; border: 1px solid #555; }</style></p></td>
+    <td><p>$3.00</p></td>
+    <td><a href="checkout.html"><img src="buy.png" title="Checkout" width="180" height="70" /></a></td>
+  </tr>
+
+<tr>
+    <td><p><font color="darkred">Ice Cream</font></p></td>
+    <td><p><label for="quantity">Qty: </label>
+<input min="1" type="number" id="quantity" name="quantity" value="1" />
+<style>#quantity { padding:5px; width:35px; border: 1px solid #555; }</style></p></td>
+    <td><p>$5.50</p></td>
+    <td><a href="checkout.html"><img src="buy.png" title="Checkout" width="180" height="70" /></a></td>
+  </tr>
+
+
+<tr>
+    <td><p><font color="darkred">Boiled Sweets</font></p></td>
+    <td><p><label for="quantity">Qty: </label>
+<input min="1" type="number" id="quantity" name="quantity" value="1" />
+<style>#quantity { padding:5px; width:35px; border: 1px solid #555; }</style></p></td>
+    <td><p>$2.50</p></td>
+    <td><a href="checkout.html"><img src="buy.png" title="Checkout" width="180" height="70" /></a></td>
+  </tr>
+
+<tr>
+    <td><p><font color="darkred">Biscuits</font></p></td>
+    <td><p><label for="quantity">Qty: </label>
+<input min="1" type="number" id="quantity" name="quantity" value="1" />
+<style>#quantity { padding:5px; width:35px; border: 1px solid #555; }</style></p></td>
+    <td><p>$4.00</p></td>
+    <td><a href="checkout.html"><img src="buy.png" title="Checkout" width="180" height="70" /></a></td>
+  </tr>
+
+
+<tr>
+    <td><p><font color="darkred">Lollipops</font></p></td>
+    <td><p><label for="quantity">Qty: </label>
+<input min="1" type="number" id="quantity" name="quantity" value="1" />
+<style>#quantity { padding:5px; width:35px; border: 1px solid #555; }</style></p></td>
+    <td><p>$1.50</p></td>
+    <td><a href="checkout.html"><img src="buy.png" title="Checkout" width="180" height="70" /></a> </td>
+  </tr>
+
+
+</table>
+
+
+  </div>
+
+
+    
+<div id="back2top" style="margin-top: 420px;">
+
+      <a href="checkout.html">
+        <h2>Back to top.</h2>
+      </a>
+
+    </div>
+
+  <div id="footer">
+
+    <h3>Vida &#9829;</h3>
+
+
+  </div>
+
+
+
+</body>
+
+</html>

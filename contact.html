@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<hmtl>
+
+<head>
+
+  <title>Vida x Contact</title>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <script src="./dependencies/jquery-3.1.1.min.js"></script>
+
+  <meta charset="utf-8"/>
+
+  <script>
+
+    $(document).ready(function() {
+
+      var banner_header = $('#banner');
+
+      banner_header.animate({
+
+        fontSize: '30px'
+
+      }, "slow"); // can also take "normal" or "fast" as values
+
+
+
+      var nav_links = $('#left-nav h1');
+
+      nav_links.delay(1000).animate({
+
+        paddingLeft: '40px',
+      }, "slow"); // can also take "normal" or "fast" as values
+
+
+    });
+
+  </script>
+<style>
+#bannerh {text-align:center;}
+#bannerh { color: white;}
+#banner {background-image: url("rose-banner.jpg");
+         background-size: 1400px 300px;
+
+
+</style>
+
+
+</head>
+
+<body> <!-- Each ID name describe the purpose of the element  -->
+
+
+
+
+  <div id="banner">
+
+
+    <a href="index.html">
+      <h1 id="bannerh">&#9825; &#9829; <u>Vida's Sweetshop</u> &#9829; &#9825;      </h1>
+    </a>
+
+  </div>
+
+
+
+  <div id="left-nav">
+
+    <a href="index.html"><h1>Home</h1></a>
+
+    <a href="shop.html"><h1>Shop</h1></a>
+
+    <a href="about.html"><h1>About</h1></a>
+
+    <a href="contact.html"><h1>Contact</h1></a>
+
+    <a href="checkout.html">
+      <h1>Checkout</h1>
+    </a>
+
+
+  </div>
+
+
+
+  <div id="main-container" style="margin-top: -500px; height: 1000px;">
+    
+    <!--    This is the main body of your web page     -->
+
+    <h2>Contact Page</h2>
+
+    <p>Here you can contact the owner of the site!</p>
+
+ 
+<p> If there is anything you would like the owner of the site to know or if you have some
+complaints please feel free to contact us, using either of the following methods: </p>
+
+<p> Call us on <u><font color="darkred">01517686475</font></u></p>
+<p> Or Email us at <u><font color="blue">vidasinternationalsweetshop@googlemail.com</font></u></p>
+<p> You can also fill out our feedback form below, to leave further comments </p>
+
+<form action="URL to form script" method="POST">
+
+Your name: <br>
+<input type="text" name="realname"><br>
+<br>
+
+Your email: <br>
+<input type="text" name="email"><br>
+<br>
+
+Your comments: <br>
+<textarea name="comments" rows="15" cols="50"></textarea><br><br>
+
+<input type="submit" value="Submit">
+ 
+</form>
+
+
+
+
+
+
+
+
+   
+
+  </div>
+
+
+    <div id="back2top">
+
+      <a href="contact.html"><h2>Back to top.</h2></a>
+
+    </div>
+
+
+  <div id="footer">
+
+    
+ <h3>Vida &#9829;</h3>
+
+
+  </div>
+
+
+</body>
+
+</html>

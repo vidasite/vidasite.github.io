@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<hmtl>
+
+<head>
+
+  <title>Vida x Home</title>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <script src="./dependencies/jquery-3.1.1.min.js"></script>
+
+  <meta charset="utf-8"/>
+  
+<script>
+    
+$(document).ready(function() {
+
+      var banner_header = $('#bannerh');
+
+
+      banner_header.animate({
+
+        fontSize: '120px' // change this value as you like ;)
+
+      }, "slow");
+
+
+
+      var nav_links = $('#left-nav h1');
+
+      nav_links.delay(1000).animate({
+
+        paddingLeft: '40px',
+
+      }, "slow");
+
+   });
+
+
+
+</script>
+
+
+<script type="text/javascript" src="jquery.jswipe-0.1.2.js"></script>
+
+<style>
+
+#main-container { margin-top: -500px; }
+
+</style> 
+
+</head>
+
+<body> 
+
+
+  <div id="banner">
+
+
+    <a href="index.html">
+     <h1 id="bannerh" style="position: relative;">
+       &#9825; &#9829; <u>Vida's Sweetshop</u> &#9829; &#9825; 
+     </h1></a>
+  </div>
+
+
+
+  <div id="left-nav">    
+    <a href="index.html">
+     <h1>Home</h1>
+    </a>
+
+    <a href="shop.html">
+     <h1>Shop</h1> 
+    <a href="about.html">
+      <h1>About</h1>
+    </a>
+
+    <a href="contact.html">
+      <h1>Contact</h1>
+    </a>
+
+    <a href="checkout.html">
+      <h1>Checkout</h1>
+    </a>
+
+
+  </div>
+
+  
+
+
+
+
+  <div id="main-container">
+    
+    <!--    This is the main body of your web page     -->
+
+    <h1>Home Page</h1>
+    
+<p>Welcome, please use the navigation section on the left hand 
+      side of the screen to navigate through the pages. 
+      We, here at Vida's International Sweetshop, sell 
+      nothing but the<font color="darkred"><u> finest quality sweets</u></font> for all you 
+      sugar lovers out there!
+    </p> 
+    <p>Here you can get a feel for what the site has to offer!</p>
+    <br> 
+  <a class="button1" href="shop.html">Chocolates</a> 
+  <a class="button1" href="shop.html">Jellies</a>  
+  <a class="button3" href="shop.html">Cookies</a> 
+  <a class="button4" href="shop.html"> Cakes </a>
+  <a class="button5" href="shop.html">Ice Cream</a>
+  <a class="button6" href="shop.html">Boiled Sweets</a>
+  <a class="button7" href="shop.html">Biscuits</a>
+  <a class="button8" href="shop.html">Lollipops</a>
+    <div class= "photos">
+     <img src="cakes2.jpg" width="300" height="250"/>
+      <img src="sweets.jpg" width="300" height="250"/>
+      <img src="hearts.jpg" width="300" height="250"/>
+      <img src="cookies2.jpg" width="300" height="250"/>
+      <img src="strawberries.png" width="300" height="250"/>
+    </div>
+<div id="image1">
+   
+   <img src="cake-bake.gif" width="150" height="110"/>
+
+</div>
+<div id="main-text"><font color="darkred"> As shown in the adjacent video, 
+all our sweets and candies are professionally handmade.</font></div>
+
+<iframe width="675" height="400"
+src="https://www.youtube.com/embed/8-3Xe7RMg3w?showinfo=0" frameborder="0" allowfullscreen></iframe>
+
+
+<p> Vida's international sweetshop is dedicated to filling every little boy or girl 
+with joy. Oh! And ofcorse we couldnt forget the candy loving adults out there! 
+Thats why all the sweets here vida's international sweetshop are specifically made in 
+a way that caters to adults and children of all ages. 
+</p>
+
+
+<div class="slides" style="max-width:1100px">
+  <img class="mySlides" src="rainbow.jpg" style="width:100%">
+  <img class="mySlides" src="baked-cookies.jpg" style="width:100%">
+  <img class="mySlides" src="ice-cream.jpg" style="width:100%">
+  <img class="mySlides" src="chocolates.jpg" style="width:100%">
+  <img class="mySlides" src="jelly-cake.jpg" style="width:100%">
+  <img class="mySlides" src="collage.jpg" style="width:100%">
+  <img class="mySlides" src="lolly-rainbow.jpg" style="width:100%">
+  <img class="mySlides" src="shoppic.jpg" style="width:100%">
+</div>
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+ </div>
+  
+
+ <div id="back2top">
+
+      <a href="index.html"><h2>Back to top.</h2></a>
+
+ </div>
+
+
+
+ <div id="footer">
+
+    <h3>Vida &#9829;</h3>
+
+
+  </div>
+
+
+
+</body>
+
+</hmtl>
